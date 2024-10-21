@@ -79,3 +79,26 @@ document.addEventListener("DOMContentLoaded", () => {
     cardContainer.appendChild(card);
   });
 });
+
+/*
+* better vers? 
+*/
+/*
+const comics = comicsData;
+const cardContainer = document.querySelector("#card-container-id");
+
+let cardsHTML = '';
+
+comics.forEach((comic) => {
+  cardsHTML += `
+    <div class="card">
+      <div class="card-title">${comic.title}</div>
+      <div class="card-img-container">
+        <img src="${comic.thumb}" alt="${comic.title}">
+      </div>
+    </div>
+  `;
+});
+
+cardContainer.innerHTML = cardsHTML;
+*/
