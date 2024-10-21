@@ -9,6 +9,12 @@
 
 /* JUMBOTRON */
 
+.jumbot {
+    width: 100vw;
+    height: 400px;
+    background-image: url(https://wallpapers.com/images/featured/sfondo-di-fumetti-marvel-0exuprkk5cwj6ail.jpg);
+    background-size: cover;
+}
 
 
 
