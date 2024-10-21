@@ -13,6 +13,43 @@
 
 
 /* CARDS */
+.centered {
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.main-card-container {
+    min-height: 500px;
+    position: relative;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.bg-for-card-list {
+    background-color: rgb(28, 28, 28);
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.card {
+width: calc(100% / 5);
+}
+
+.card-img-container {
+    aspect-ratio: 1 / 1;
+}
+.card-img-container > img {
+    height: 100%;
+    width: 100%;
+}
 
 
 
