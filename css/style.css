@@ -3,7 +3,21 @@
 
 
 /* HEADER */
+header{
+    background-color: white;
+    min-height: 80px;
+}
 
+ul{
+    list-style: none;
+}
+
+li{
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    color: rgb(32, 32, 32);
+    transform: scaleY(1.3);
+}
 
 
 
