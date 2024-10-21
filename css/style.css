@@ -18,3 +18,15 @@
 
 
 /* FOOTER */
+
+.footer{
+    background-color: #303030;
+}
+.btn{
+    background-color: #303030;
+    border: 2px solid #10508c;
+    color: white;
+}
+.h3-fot{
+    color: #10508c;
+}
